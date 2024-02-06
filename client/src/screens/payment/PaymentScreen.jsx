@@ -7,7 +7,7 @@ import CheckoutSteps from "../../components/CheckoutSteps";
 import { savePaymentMethod } from "../../slices/cartSlice";
 
 const PaymentScreen = () => {
-  const [paymentMethod, setPaymentMethod] = useState("PayPal");
+  const [paymentMethod, setPaymentMethod] = useState("Manual");
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -58,7 +58,7 @@ const PaymentScreen = () => {
                 id="MannualPayment"
                 name="paymentMethod"
                 value="MannualPayment"
-                checked
+                // checked
                 onChange={(e) => setPaymentMethod(e.target.value)}>
                 </Form.Check>
           </Col>
