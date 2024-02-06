@@ -1,0 +1,85 @@
+/* @dev  saeed barcha */
+/* @file TopCategories.jsx and TopCart.jsx */
+.titleTopCategories{
+  color: var(--mainThemeColor);
+  font-size: 50px;
+  
+}
+.topCatContainer{
+  transition: transform 0.8s;
+  /* min-width: 150px; */
+}
+.topCatContainer:hover{
+  transform: scale(1.1);
+}
+.slider {
+  margin: 20px;
+  align-items: center;
+}
+.topCateImg {
+  height: 200px;
+  border-radius: 15px;
+}
+
+.topCateImg:hover {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+}
+.productOrderDetails {
+  position: relative;
+  width: 100%;
+}
+
+.orderDetails {
+  /* background: #0f3460; */
+  background-color: var(--mainThemeColor);
+  border: 2px solid #f7efef;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 5px;
+  border-radius: 80px;
+  border-bottom-right-radius: 0px;
+  margin: 3px;
+  opacity: .8;
+  position: absolute;
+  top: 2px;
+  font-weight: 900;
+  left: 0;
+  
+}
+
+
+
+ .productName {
+  position: relative;
+  width: 100%;
+}
+
+.name {
+  background-color: var(--mainBgColor);
+  width: 30%;
+  color: #fff;
+  text-align: center;
+  border: 3px solid wheat;
+  font-size: 10px;
+  padding: 4px 10px;
+  border-radius: 50px;
+  margin: 5px;
+  position: absolute;
+  top: 177px;          
+  left: 50%;             
+  transform: translateX(-50%); 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*---------media query-----------*/
+@media screen and (max-width: 992px) {
+/* @file TopCategories.jsx and TopCart.jsx */
+.titleTopCategories{
+  font-size: 36px;
+}
+  
+  }

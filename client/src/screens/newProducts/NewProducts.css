@@ -1,0 +1,34 @@
+.imageConttainerCallary{
+    /* background-color: #3C4C5D;  */
+}
+
+.titleTopGallery{
+    color: var(--mainThemeColor);
+    font-size: 50px; 
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+.imageContainer {
+  color: red;
+  position: relative;
+  /* width: 100%; */
+}
+.newIcon {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  top:22px;
+  right: 10px;
+}
+
+/*---------media query-----------*/
+@media screen and (max-width: 992px) {
+    /* @file TopCategories.jsx and TopCart.jsx */
+    .titleTopGallery{
+      font-size: 36px;
+    }
+      
+      }
