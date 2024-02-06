@@ -1,4 +1,5 @@
 import path from "path";
+import cors from "cors";
 import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
@@ -16,11 +17,17 @@ connectDB(); // Connect to MongoDB
 const app = express();
 
 //Body parser middleware
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Cookie parser middleware
 app.use(cookieParser());
+
+app.use(cors({
+  origin: 'http://localhost:3000',
+  credentials: true,
+}));
 
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
