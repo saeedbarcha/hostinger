@@ -2,12 +2,14 @@
 /* @file Decorate.jsx */
 
 
+/* @tag --Container */
 .decorateHome{
   margin-top: 100px;
   margin-bottom: 100px;
   padding: 20px;
 }
-/* @tag --Container/Row2/div */
+
+/* @tag --Container/h1*/
 .decorateHome .titleDecorateHome {
   color: var(--mainBgColor);
   font-size: 50px;
@@ -15,15 +17,15 @@
   text-decoration-line: underline;
 }
 
+/* @tag --Container/Row1/Col1/image */
 .sideImage{
   width: 550px;
   display: block;
   opacity: 0.7;
   height: 350px;
-  background-color: aqua;
 }
 
-/* three image cont */
+/* @tag --Container/Row1/Col1/div */
 .threeImageCont{
   padding-left: 60px;
   display: flex;
@@ -32,7 +34,7 @@
   margin-top: -30px;
   }
 
-/* tree image */
+/* @tag --Container/Row1/Col1/div/img */
 .threeImageCont .threeImage{
   width: 110px;
   height: 110px;
@@ -43,15 +45,14 @@
   transition: transform 0.6s;
 }
 
-/* tree image */
+/* @tag --Container/Row1/Col1/div/img */
 .threeImageCont .threeImage:hover{
   border:5px solid var(--mainBgColor);
   opacity: .8;
   transform: scale(1.0);
 }
 
-
-/* @tag --Container/Row2/Col/div */
+/* @tag --Container/Row1/Col2/Row/Col/div */
 .decorateCardCont {
   height: 160px;
   width: 190px;
@@ -64,14 +65,14 @@
   box-shadow: 0 4px 8px rgba(12, 12, 12, 0.1); 
 }
 
-/* @tag --Container/Row2/Col/div */
+/* @tag --Container/Row1/Col2/Row/Col/div */
 .decorateCardCont:hover {
   background: #f4f5f7;
   cursor: pointer;
   transform: scale(1.1);
 }
 
-/* @tag --Container/Row2/Col/div/div*/
+/* @tag --Container/Row1/Col2/Row/Col/div/div */
 .decorateHome .iconCont {
   width: 70px;
   height: 70px;
@@ -84,8 +85,8 @@
   justify-content: center;
 }
 
-/* @tag --Container/Row2/Col/div/h4 */
-.serviceHeading {
+/* @tag --Container/Row1/Col2/Row/Col/div/h4 */
+.decorateCardHeading {
   text-align: center;
   /* color: var(--mainThemeColor); */
   color: var(--mainBgColor);
@@ -95,6 +96,7 @@
   white-space: nowrap;
 }
 
+/* @tag --Container/Row2/Col/image */
 .sameImagesDecorate{
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
   border-radius: 5%;
@@ -102,29 +104,38 @@
   transition: transform 0.8s;
 }
 
+/* @tag --Container/Row2/Col/image */
 .sameImagesDecorate:hover{
   opacity: 0.8;
   transform: scale(1.03);
 }
 
+
+
 /*---------media query-----------*/
 @media screen and (max-width: 992px) {
 
+  /* @tag --Container */
 .decorateHome{
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 20px;
 }
 
+/* @tag --Container/h1*/
 .decorateHome .titleDecorateHome {
   font-size: 30px;
-}.threeImageCont{
+}
+
+/* @tag --Container/Row1/Col1/div */
+.threeImageCont{
   padding-left: 0px;
   display: flex;
   justify-content: space-around; 
   margin-top: -30px;
   }
-/* tree image */
+
+/* @tag --Container/Row1/Col1/div/image */
 .threeImageCont .threeImage{
   width: 90px;
   height: 90px;
@@ -135,9 +146,13 @@
   transition: transform 0.6s;
   
 }
+
+/* @tag --Container/Row1/Col1/div/image */
 .threeImageCont .threeImage:hover{  
   transform: scale(1.1);
 }
+
+/* @tag --Container/Row1/Col2/Row/Col/div */
 .decorateCardCont {
  margin-top: 25px;
 }

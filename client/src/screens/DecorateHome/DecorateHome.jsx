@@ -60,7 +60,7 @@ const DecorateHome = () => {
     },
   ];
   return (
-    <>
+    
       <Container className="decorateHome">
         <h2 className="titleDecorateHome">Bring Radiant Home</h2>
         <p className="text-center">High Quality Affordable Flooring</p>
@@ -103,7 +103,7 @@ const DecorateHome = () => {
                 >
                   <div className="decorateCardCont">
                     <div className="iconCont">{icon?.cover}</div>
-                    <h4 className="serviceHeading">{icon?.title}</h4>
+                    <h4 className="decorateCardHeading">{icon?.title}</h4>
                   </div>
                 </Col>
               ))}
@@ -123,7 +123,7 @@ const DecorateHome = () => {
           ))}
         </Row>
       </Container>
-    </>
+  
   );
 };
 

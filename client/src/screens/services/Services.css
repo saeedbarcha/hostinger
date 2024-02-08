@@ -1,13 +1,13 @@
 /* @dev  saeed barcha */
 /* @file Services.jsx */
 
-/* @tag --Container/Row2/div */
+/* @tag --Container/Row/div */
 .wrapper  {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-/* @tag --Container/Row2/div */
+/* @tag --Container/Row/div */
 .wrapper .titleParaServices {
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-/* @tag --Container/Row2/div/h1 */
+/* @tag --Container/Row/div/h1 */
 .wrapper .titleServices {
  color: #FE9900;
  margin-top: 20px;
@@ -24,7 +24,7 @@
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* @tag --Container/Row2/div/p */
+/* @tag --Container/Row/div/p */
 .wrapper .paraServices {
   color: #444444;
   width: 60%;
@@ -41,7 +41,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  }
 
-/* @tag --Container/Row2/Col/div */
+/* @tag --Container/Row/Col/div */
 .wrapper .showCardCont {
   padding: 30px;
   background: #f8f9fa;
@@ -51,14 +51,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* @tag --Container/Row2/Col/div */
+/* @tag --Container/Row/Col/div */
 .wrapper .showCardCont:hover {
   background: #f4f5f7;
   cursor: pointer;
   transform: scale(1.1);
 }
 
-/* @tag --Container/Row2/Col/div/div*/
+/* @tag --Container/Row/Col/div/div*/
 .iconCont {
   width: 70px;
   height: 70px;
@@ -72,7 +72,7 @@
   justify-content: center;
 }
 
-/* @tag --Container/Row2/Col/div/h4 */
+/* @tag --Container/Row/Col/div/h4 */
 .wrapper .showCardCont .serviceHeading {
   text-align: center;
   /* color: var(--mainThemeColor); */
@@ -83,7 +83,7 @@
   white-space: nowrap;
 }
 
-/* @tag --Container/Row2/Col/div/p */
+/* @tag --Container/Row/Col/div/p */
 .showCardCont p {
   font-size: 15px;
   margin-top: 0px;
@@ -97,13 +97,13 @@
 
 /*---------media query-----------*/
 @media screen and (max-width: 992px) {
-  /* @tag --Container/Row2/div */
+  /* @tag --Container */
 .wrapper  {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-  /* @tag --Container/Row2/div/h1 */
+  /* @tag --Container/Row/div/h1 */
 
 .wrapper .titleServices {
   color: #FE9900;
@@ -112,11 +112,6 @@
   
  }
  
-  .wrapper .paraServices {
-    width: 98%;
-    margin: 5px 0px;
-    text-align: center;
-   }
    .wrapper .paraServices {
     padding-bottom: 60px;
     font-size: 18px;

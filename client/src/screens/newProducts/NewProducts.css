@@ -1,18 +1,28 @@
-.imageConttainerCallary{
+/* @dev  saeed barcha */
+/* @file Decorate.jsx */
+
+
+/* @tag --Container */
+.galleryWrapper{
     /* background-color: #3C4C5D;  */
 }
 
-.titleTopGallery{
+/* @tag --Container/h2 */
+.titleGallery{
     color: var(--mainThemeColor);
     font-size: 50px; 
     text-decoration-line: underline;
     font-weight: bolder;
 }
+
+/* @tag --Container/h2/Row/Col/image */
 .imageContainer {
   color: red;
   position: relative;
   /* width: 100%; */
 }
+
+/* @tag --Container/h2/Row/Col/icon */
 .newIcon {
   width: 50px;
   height: 50px;
@@ -26,8 +36,8 @@
 
 /*---------media query-----------*/
 @media screen and (max-width: 992px) {
-    /* @file TopCategories.jsx and TopCart.jsx */
-    .titleTopGallery{
+   /* @tag --Container/h2 */
+    .titleGallery{
       font-size: 36px;
     }
       

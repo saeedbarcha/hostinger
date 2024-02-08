@@ -43,8 +43,8 @@ const NewProductsScreen = () => {
 
   return (
     <>
-      <Container  className="my-5 pt-5 pb-5 imageConttainerCallary">
-      <h2 className="titleTopGallery">New Arrivals Collection</h2>
+      <Container  className="my-5 pt-5 pb-5 galleryWrapper">
+      <h2 className="titleGallery">New Arrivals Collection</h2>
         <Row className="" data-aos="fade-up">
           {galleryData.map((product, index) => (
             <Col xs={6} md={4} lg={3} className=" imageContainer" key={index}>

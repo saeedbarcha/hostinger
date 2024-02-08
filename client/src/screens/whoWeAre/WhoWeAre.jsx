@@ -27,7 +27,7 @@ const WhoWeAre = () => {
   return (
     <>
       {/* <Container fluid className="my-5 whoWeAre"> */}
-        <Container className="my-5 py-5" style={{ minHeight:"450px", padding:"25px", background: `linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(${bgImage}) fixed center center`}}>  
+        <Container className="my-5 whoWeAreWrapper py-5" style={{ minHeight:"450px", padding:"25px", background: `linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(${bgImage}) fixed center center`}}>  
         <Row className="flex justify-content-center align-items-center">
           <Col md={6} className="flex whoWeAreTitleAndIcon">
             <h2 className="titleWhoWeAre text-center">Who We Are ?</h2>
